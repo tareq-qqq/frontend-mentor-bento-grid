@@ -1,0 +1,21 @@
+/* src/assets/css/fonts.css */
+@font-face {
+	font-family: "DMSans";
+	src: url("/assets/fonts/static/DMSans-Medium.ttf") format("truetype");
+	font-weight: 500; /* Medium */
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "DMSans";
+	src: url("/assets/fonts/static/DMSans-MediumItalic.ttf") format("truetype");
+	font-weight: 500; /* Medium */
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "DMSans";
+	src: url("/assets/fonts/static/DMSans-Regular.ttf") format("truetype");
+	font-weight: 400; /* Regular */
+	font-style: normal;
+}

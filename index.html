@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Bento grid</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <script type="module" src="/src/index.ts"></script>
+  </head>
+
+  <body class="bg-white">
+    <main class="container mx-auto px-4 py-10 md:px-8 md:py-20">
+      <div class="grid">
+        <div
+          class="rounded-xl bg-purple-500 p-8 text-center shadow-lg xl:col-span-2 xl:col-start-2 xl:row-span-8 xl:row-start-1 xl:grid xl:place-content-around xl:p-10 xl:py-12"
+        >
+          <h1
+            class="mb-5 text-4xl font-medium tracking-tighter text-white xl:text-6xl"
+          >
+            Social Media <span class="text-yellow-500">10x </span>
+            <em>Faster </em>with AI
+          </h1>
+          <img
+            class="mx-auto mb-2 w-40 max-w-full"
+            src="/assets/images/illustration-five-stars.webp"
+            alt=""
+          />
+
+          <p class="text-white">Over 4,000 5-star reviews</p>
+        </div>
+
+        <div
+          class="overflow-hidden rounded-xl bg-white px-8 py-4 shadow-lg xl:col-start-2 xl:row-span-6 xl:row-start-9 xl:py-6"
+        >
+          <img
+            class="mb-4 max-w-full origin-top-left rounded-full xl:mb-10 xl:scale-150"
+            src="/assets/images/illustration-multiple-platforms.webp"
+            alt=""
+          />
+          <p
+            class="mb-5 text-xl leading-8 font-medium tracking-tighter text-black md:text-2xl xl:text-4xl"
+          >
+            Manage multiple accounts and platforms.
+          </p>
+        </div>
+
+        <div
+          class="overflow-hidden rounded-xl bg-yellow-500 px-8 py-4 shadow-lg xl:col-start-3 xl:row-span-6 xl:py-6"
+        >
+          <p
+            class="mb-5 max-w-[20ch] text-xl leading-8 font-medium tracking-tighter text-black md:text-2xl xl:text-4xl"
+          >
+            Maintain a consistent posting schedule.
+          </p>
+          <img
+            class="w-4/6 max-w-full xl:w-full"
+            src="/assets/images/illustration-consistent-schedule.webp"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="flex flex-col justify-between overflow-hidden rounded-xl bg-purple-100 px-8 py-4 shadow-lg xl:col-start-4 xl:row-span-14 xl:row-start-1 xl:py-10"
+        >
+          <p
+            class="mb-5 max-w-[20ch] text-xl leading-8 font-medium tracking-tighter text-black md:text-2xl xl:text-4xl"
+          >
+            Schedule to social media.
+          </p>
+          <img
+            class="mb-4 max-w-full origin-left xl:scale-150"
+            src=" /assets/images/illustration-schedule-posts.webp"
+            alt=""
+          />
+          <p
+            class="mx-auto max-w-[25ch] px-2 text-center xl:px-0 xl:text-start"
+          >
+            Optimize post timings to publish content at the perfect time for
+            your audience.
+          </p>
+        </div>
+
+        <div
+          class="rounded-xl bg-purple-500 px-8 py-4 shadow-lg xl:col-span-2 xl:col-start-3 xl:row-span-6 xl:flex"
+        >
+          <img
+            class="mb-4 max-w-full xl:basis-1/3"
+            src="/assets/images/illustration-grow-followers.webp"
+            alt=""
+          />
+          <p
+            class="mx-auto max-w-[22ch] px-2 text-center text-xl font-medium text-white md:text-2xl xl:flex xl:items-center xl:text-start xl:text-4xl"
+          >
+            Grow followers with non-stop content.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col justify-between rounded-xl bg-white px-8 py-4 shadow-lg xl:col-start-2 xl:row-span-6 xl:row-start-15 xl:py-5"
+        >
+          <p class="center mb-4 px-2 font-medium text-black">
+            <span class="block text-4xl xl:text-6xl">>56%</span>
+            faster audience growth
+          </p>
+          <img
+            class="w-[clamp(12rem,35vw,15rem)] max-w-full"
+            src="/assets/images/illustration-audience-growth.webp"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="rounded-xl bg-yellow-100 px-8 py-4 shadow-lg xl:row-span-10 xl:row-start-1 xl:grid xl:place-content-center"
+        >
+          <p
+            class="mb-4 px-2 text-xl leading-8 font-medium tracking-tighter text-black md:text-2xl xl:text-4xl"
+          >
+            Create and schedule content
+            <em class="text-purple-500">quicker.</em>
+          </p>
+          <img
+            class="w-[clamp(12rem,35vw,15rem)] max-w-full"
+            src="/assets/images/illustration-create-post.webp"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="rounded-xl bg-yellow-500 px-8 py-4 shadow-lg xl:row-span-10 xl:row-start-11 xl:grid xl:place-content-between xl:py-10"
+        >
+          <p
+            class="mb-4 px-2 text-xl leading-8 font-medium tracking-tighter text-black md:text-2xl xl:text-4xl"
+          >
+            Write your content using AI.
+          </p>
+          <img
+            class="w-[clamp(12rem,35vw,15rem)] max-w-full"
+            src="/assets/images/illustration-ai-content.webp"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="attribution mt-20">
+        Challenge by
+        <a
+          class="text-2xl underline"
+          href="https://www.frontendmentor.io?ref=challenge"
+          >Frontend Mentor</a
+        >. Coded by
+        <span class="inline-flex items-center gap-1 text-2xl underline"
+          ><a href="https://github.com/tareq-qqq" class="">tareq-qqq</a>
+          <svg
+            width="18"
+            height="18"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 496 512"
+          >
+            <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+            <path
+              d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+            />
+          </svg> </span
+        >.
+      </div>
+    </main>
+  </body>
+</html>

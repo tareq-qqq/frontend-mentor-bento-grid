@@ -1,0 +1,34 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "tailwindcss";
+
+html {
+	font-size: 13px;
+}
+
+body {
+	font-family: "DMSans";
+	color: var(--black);
+	font-size: 1.125rem;
+}
+
+.grid {
+	gap: 1rem;
+	margin-inline: auto;
+	max-width: 30rem;
+}
+
+@media (min-width: 80rem) {
+	.grid {
+		--column-width: 1rem;
+		--num-of-columns: 20;
+		max-width: 75rem;
+		display: grid;
+		gap: 2rem;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(
+			var(--num-of-columns),
+			var(--column-width, 1rem)
+		);
+	}
+}
